@@ -49,6 +49,11 @@
         .portfolio-item:last-child {
             border-bottom: none;
         }
+        .portfolio-item img {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 10px;
+        }
         .quote-container {
             margin-top: 40px;
             padding: 20px;
@@ -67,6 +72,24 @@
             font-size: 18px;
             font-style: italic;
             margin-top: 10px;
+        }
+        .social-links {
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .social-links a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -92,6 +115,8 @@
             <div class="portfolio-item">
                 <h3>Project 2: Rational Thinking Workshop</h3>
                 <p>A series of interactive workshops to develop critical thinking skills among young minds.</p>
+                <!-- Replace "path-to-your-image.jpg" with the actual image path -->
+                <img src="path-to-your-image.jpg" alt="Rational Thinking Workshop">
             </div>
             <div class="portfolio-item">
                 <h3>Project 3: AI & Creativity</h3>
@@ -104,6 +129,13 @@
             <blockquote>
                 "The highest education is that which does not merely give us information but makes our life in harmony with all existence." - Rabindranath Tagore
             </blockquote>
+        </div>
+        
+        <div class="social-links">
+            <h2>Connect with Me</h2>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
+            <a href="https://t.me/yourtelegramhandle" target="_blank">Telegram</a> |
+            <a href="mailto:youremail@example.com">Email</a>
         </div>
     </div>
 </body>
