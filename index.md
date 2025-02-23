@@ -134,8 +134,7 @@
         <div class="social-links">
             <h2>Connect with Me</h2>
             <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
-            <a href="https://t.me/yourtelegramhandle" target="_blank">Telegram</a> |
-            <a href="mailto:youremail@example.com">Email</a>
+            <a href="https://t.me/Burningamit" target="_blank">Telegram</a> |
         </div>
     </div>
 </body>
